@@ -58,3 +58,9 @@ DokodemoGPT02.pyの適切な箇所を書き換え
 pyinstallを使用してexe形式を作ってください。
 distフォルダにexeが作られます。
 
+## Macでの使用
+1. **AutoHotKey以外のスニペットツールを用意**
+そのツールからDokodemoGPT02.pyを呼び出すように設定すればよい
+したがって、Pythonの動作環境が必要となる。
+スニペットツールからはプロンプトがDokodemoGPT02.pyにクリップボードで渡され、DokodemoGPT02.pyからはやはりクリップボード経由で結果がスニペットツールに戻されるだけである。
+
