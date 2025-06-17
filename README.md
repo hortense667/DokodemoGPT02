@@ -19,7 +19,7 @@ DokodemoGPT02.zipは、リポジトリのTag（https://github.com/hortense667/Do
 
 2. **環境変数の設定**  
 - **OpenAIのAPIキー**  
-  OpenAIのAPIキーを取得し、以下の環境変数を`setx`でセットしてください。  
+  OpenAIのAPIキーを取得し、以下の環境変数をセットしてください。  
   `OPENAI_API_KEY`
 
 3. **自動実行のための登録**  
