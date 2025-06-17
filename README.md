@@ -11,10 +11,11 @@ https://ascii.jp/serialarticles/1225476/
 DokodemoGPT02.zipを適切なフォルダに解凍してください（フォルダ構成のまま）。
 DokodemoGPT02.zipは、リポジトリのTag（https://github.com/hortense667/DokodemoGPT02/tags）にあります。
 - DokodemoGpt02ahk.exe
+- dit（DokodemoGpt02.pyをpyinstallerでexe化した実行形式が入っているフォルダ）
 - source（AutoHotKeyとPythonのコードが入っているフォルダ）
   - DokodemoGpt02.py
   - DokodemoGpt02ahk.py
-- dit（DokodemoGpt02.pyをpyinstallerでexe化した実行形式が入っているフォルダ）
+- Readme.md
 
 2. **環境変数の設定**  
 - **OpenAIのAPIキー**  
