@@ -8,10 +8,10 @@ https://ascii.jp/serialarticles/1225476/
 ## 動かすための準備
 
 1. DokodemoGPT02.zipを適切なフォルダに解凍してください（フォルダ構成のまま）。
-  DokodemoGPT02.zipは、リポジトリのTag（https://github.com/hortense667/DokodemoGPT02/tags）にあります（現在 v2025-06-17）。
-  DokodemoGpt02ahk.exe
-  DokodemoGpt02.py
-  dist（DokodemoGpt02.pyをpyinstallerでexe化した実行形式が入っているフォルダ）ができます。
+DokodemoGPT02.zipは、リポジトリのTag（https://github.com/hortense667/DokodemoGPT02/tags）にあります（現在 v2025-06-17）。
+DokodemoGpt02ahk.exe
+DokodemoGpt02.py
+dist（DokodemoGpt02.pyをpyinstallerでexe化した実行形式が入っているフォルダ）ができます。
 
 3. **環境変数の設定**  
 - **OpenAIのAPIキー**  
