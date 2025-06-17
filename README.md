@@ -9,10 +9,12 @@ https://ascii.jp/serialarticles/1225476/
 
 1. **DokodemoGPT02.zip**  
 DokodemoGPT02.zipを適切なフォルダに解凍してください（フォルダ構成のまま）。
-DokodemoGPT02.zipは、リポジトリのTag（https://github.com/hortense667/DokodemoGPT02/tags）にあります（現在 v2025-06-17）
+DokodemoGPT02.zipは、リポジトリのTag（https://github.com/hortense667/DokodemoGPT02/tags）にあります。
 - DokodemoGpt02ahk.exe
-- DokodemoGpt02.py
-- dit（DokodemoGpt02.pyをpyinstallerでexe化した実行形式が入っているフォルダ）ができます。
+- source（AutoHotKeyとPythonのコードが入っているフォルダ）
+  - DokodemoGpt02.py
+  - DokodemoGpt02ahk.py
+- dit（DokodemoGpt02.pyをpyinstallerでexe化した実行形式が入っているフォルダ）
 
 2. **環境変数の設定**  
 - **OpenAIのAPIキー**  
@@ -60,7 +62,7 @@ distフォルダにexeが作られます。
 
 ## Macでの使用
 1. **AutoHotKey以外のスニペットツールを用意**
-そのツールからDokodemoGPT02.pyを呼び出すように設定すればよい
-したがって、Pythonの動作環境が必要となる。
+そのツールからDokodemoGPT02.pyを呼び出すように設定すればよい。
+したがって、Pythonの動作環境が必要となります。
 スニペットツールからはプロンプトがDokodemoGPT02.pyにクリップボードで渡され、DokodemoGPT02.pyからはやはりクリップボード経由で結果がスニペットツールに戻されるだけである。
 
