@@ -1,9 +1,23 @@
 # DokodemoGPT
 
-This software allows you to call OpenAO LLM from within any application.  
+--------------------------------------------------------
+このソフトウェアは、DokodemoLLM に統合されました。
+https://github.com/hortense667/DokodemoLLM
+--------------------------------------------------------
+
+
+This software allows you to call OpenAI LLM from within any application.  
 (c) 2025 Satoshi Endo  
 https://x.com/hortense667
 https://ascii.jp/serialarticles/1225476/
+
+## Overview
+This software allows you to call the OpenAI API and input the results in scenes where text is input into most Windows software. It is written using the snippet tool AutoHotKey and Python. Both are compiled into .exe files, so you can start using it immediately after setting the API key and other configurations. The model used is "model='gpt-4o-mini'".
+
+## Usage Steps
+
+1. **Run DokodemoGPT02ahk.exe**  
+When executed, an AutoHotKey "H" icon will appear in the tray. If it is already running, please exit it before executing again.
 
 2. **How to Call the OpenAI API**  
 2-1. Select a range in the software's text input area  
@@ -135,12 +149,4 @@ distフォルダにexeが作られます。
 そのツールからDokodemoGPT02.pyを呼び出すようにスクリプトを作ってください。
 したがって、Pythonの動作環境が必要となります。
 スニペットツールからはプロンプトがDokodemoGPT.pyにクリップボードで渡され、DokodemoGPT.pyからはやはりクリップボード経由で結果がスニペットツールに戻されます。詳しくはソースコードをご覧ください。
-
-## Overview
-This software allows you to call the OpenAI API and input the results in scenes where text is input into most Windows software. It is written using the snippet tool AutoHotKey and Python. Both are compiled into .exe files, so you can start using it immediately after setting the API key and other configurations. The model used is "model='gpt-4o-mini'".
-
-## Usage Steps
-
-1. **Run DokodemoGPT02ahk.exe**  
-When executed, an AutoHotKey "H" icon will appear in the tray. If it is already running, please exit it before executing again.
 
